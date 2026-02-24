@@ -2650,3 +2650,6 @@
 [submodule "Forensics/Incident Response/Splunk4DFIR"]
 	path = Forensics/Incident Response/Splunk4DFIR
 	url = https://github.com/mf1d3l/Splunk4DFIR.git
+[submodule "Forensics/Incident Response/AllthingsTimesketch"]
+	path = Forensics/Incident Response/AllthingsTimesketch
+	url = https://github.com/blueteam0ps/AllthingsTimesketch.git
