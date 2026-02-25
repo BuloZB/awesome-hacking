@@ -817,6 +817,7 @@ Post Exploitation
 - `Ghost In The Logs <https://github.com/bats3c/ghost-in-the-logs/>`_ - Evade sysmon and windows event logging.
 - `HoneyBadger <https://github.com/trustedsec/HoneyBadger>`_ - A collection of Metasploit modules with a plugin to help automate Post-Exploitation actions on target systems using the Metasploit Framework.
 - `HoneypotBuster <https://github.com/JavelinNetworks/HoneypotBuster>`_ - Microsoft PowerShell module designed for red teams that can be used to find honeypots and honeytokens in the network or at the host.
+- `IAMhounddog <https://github.com/VirtueSecurity/IAMhounddog>`_ - A tool to help pentesters quickly identify privileged principals and second-order privilege escalation opportunities in unfamiliar AWS accounts.
 - `Iodine <http://code.kryo.se/iodine>`_ - Lets you tunnel IPv4 data through a DNS server.
 - `Lsassy <https://github.com/Hackndo/lsassy>`_ - Extract credentials from lsass remotely.
 - `Mallory <https://github.com/justmao945/mallory>`_ - HTTP/HTTPS proxy over SSH.

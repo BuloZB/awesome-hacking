@@ -2653,3 +2653,6 @@
 [submodule "Forensics/Incident Response/AllthingsTimesketch"]
 	path = Forensics/Incident Response/AllthingsTimesketch
 	url = https://github.com/blueteam0ps/AllthingsTimesketch.git
+[submodule "Penetration Testing/Post Exploitation/IAMhounddog"]
+	path = Penetration Testing/Post Exploitation/IAMhounddog
+	url = https://github.com/VirtueSecurity/IAMhounddog.git
