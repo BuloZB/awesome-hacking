@@ -2656,3 +2656,6 @@
 [submodule "Penetration Testing/Post Exploitation/IAMhounddog"]
 	path = Penetration Testing/Post Exploitation/IAMhounddog
 	url = https://github.com/VirtueSecurity/IAMhounddog.git
+[submodule "Forensics/Incident Response/jupyter-notebook-for-incident-response"]
+	path = Forensics/Incident Response/jupyter-notebook-for-incident-response
+	url = https://github.com/aws-samples/jupyter-notebook-for-incident-response.git

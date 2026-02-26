@@ -120,6 +120,7 @@ Incident Response
 - `DFIR4vSphere <https://github.com/ANSSI-FR/DFIR4vSphere>`_ - Powershell module for VMWare vSphere forensics.
 - `Event2Timeline <https://github.com/certsocietegenerale/event2timeline>`_ - A free tool based on D3js to graph Microsoft Windows sessions events. It parses both EVTX event logs from post Vista systems (Vista, Windows 7, Windows 8), and CSV exports of the legacy EVT log files.
 - `Hunter <https://github.com/ThreatHuntingProject/hunter>`_ - A threat hunting / data analysis environment based on Python, Pandas, PySpark and Jupyter Notebook.
+- `Jupyter-notebook-for-incident-response <https://github.com/aws-samples/jupyter-notebook-for-incident-response>`_ - A library of Incident Response notebooks using Jupyter. We will show how you can leverage pre-defined notebook files to guide your incident responders in identifying, containing, eradicating, and recovering from an incident.
 - `LogonTracer <https://github.com/JPCERTCC/LogonTracer>`_ - Investigate malicious Windows logon by visualizing and analyzing Windows event log.
 - `Loki <https://github.com/Neo23x0/Loki>`_ - Simple IOC and Incident Response Scanner.
 - `Panorama <https://github.com/AlmCo/Panorama>`_ - It was made to generate a wide report about Windows systems, support and tested on Windows XP SP2 and up.
