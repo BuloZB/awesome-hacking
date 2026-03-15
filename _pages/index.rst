@@ -143,6 +143,7 @@ Memory Forensics
 ----------------
 
 - `KeeFarce <https://github.com/denandz/KeeFarce>`_ - Extracts passwords from a KeePass 2.x database, directly from memory.
+- `Mquire <https://github.com/trailofbits/mquire>`_ - Zero-dependency Linux memory forensics PoC — leverages kernel-embedded BTF and kallsyms for type-aware memory analysis without external debug info.
 - `Rekall <http://www.rekall-forensic.com>`_ - Memory analysis framework developed by Google.
 - `Volatility <https://github.com/volatilityfoundation/volatility3>`_ - Volatility is the world's most widely used framework for extracting digital artifacts from volatile memory (RAM) samples. The extraction techniques are performed completely independent of the system being investigated but offer visibility into the runtime state of the system. The framework is intended to introduce people to the techniques and complexities associated with extracting digital artifacts from volatile memory samples and provide a platform for further work into this exciting area of research.
 
@@ -501,6 +502,11 @@ Exploiting
 - `AttackSurfaceAnalyzer <https://github.com/microsoft/AttackSurfaceAnalyzer>`_ - Attack Surface Analyzer can help you analyze your operating system's security configuration for changes during software installation.
 - `Bashfuscator <https://github.com/Bashfuscator/Bashfuscator>`_ - A fully configurable and extendable Bash obfuscation framework. This tool is intended to help both red team and blue team.
 - `BeEF <http://beefproject.com>`_ - The Browser Exploitation Framework Project.
+- `Bowcaster Exploit Development Framework <https://github.com/zcutlip/bowcaster>`_ - This framework, implemented in Python, is intended to aid those developing
+exploits by providing useful set of tools and modules, such as payloads,
+encoders, connect-back servers, etc.  Currently the framework is focused on the
+MIPS CPU architecture, but the design is intended to be modular enough to
+support arbitrary architectures.
 - `BugId <https://github.com/SkyLined/BugId>`_ - Detect, analyze and uniquely identify crashes in Windows applications.
 - `CALDERA <https://github.com/mitre/caldera>`_ - A cyber security framework designed to easily automate adversary emulation, assist manual red-teams, and automate incident response.
 - `CCAT <https://github.com/RhinoSecurityLabs/ccat>`_ - Cloud Container Attack Tool (CCAT) is a tool for testing security of container environments.
@@ -589,6 +595,7 @@ Exploits
 - `CVE-2021-34473 <https://github.com/phamphuqui1998/CVE-2021-34473>`_ - CVE-2021-34473 Microsoft Exchange Server Remote Code Execution Vulnerability.
 - `CVE-2022-21894 <https://github.com/Wack0/CVE-2022-21894>`_ - Baton drop (CVE-2022-21894): Secure Boot Security Feature Bypass Vulnerability
 - `CVE-2022-25636 <https://github.com/Bonfee/CVE-2022-25636>`_ - Exploit for CVE-2022-25636.
+- `CVE-2022-2588 <https://github.com/Markakd/CVE-2022-2588>`_ - Exploit for CVE-2022-2588.
 - `CVE-2023-4863 <https://github.com/mistymntncop/CVE-2023-4863>`_ - A POC for CVE-2023-4863.
 - `CVE-2024-3400 <https://github.com/h4x0r-dz/CVE-2024-3400>`_ - CVE-2024-3400 Palo Alto OS Command Injection.
 - `Chakra-2016-11 <https://github.com/theori-io/chakra-2016-11>`_ - Proof-of-Concept exploit for Edge bugs (CVE-2016-7200 & CVE-2016-7201).
@@ -738,6 +745,7 @@ Mobile
 - `Apk-mitm <https://github.com/shroudedcode/apk-mitm>`_ - A CLI application that automatically prepares Android APK files for HTTPS inspection. Inspecting a mobile app's HTTPS traffic using a proxy is probably the easiest way to figure out how it works. However, with the Network Security Configuration introduced in Android 7 and app developers trying to prevent MITM attacks using certificate pinning, getting an app to work with an HTTPS proxy has become quite tedious.
 - `Apk.sh <https://github.com/ax/apk.sh>`_ - A Bash script that makes reverse engineering Android apps easier, automating some repetitive tasks like pulling, decoding, rebuilding and patching an APK.
 - `AutoDroid <https://github.com/user1342/AutoDroid>`_ - A tool for automating interactions with Android devices - including ADB, AndroGuard, and Frida interactivity.
+- `Binder Trace <https://github.com/foundryzero/binder-trace>`_ - A tool for intercepting and parsing Android Binder messages. Think of it as "Wireshark for Binder".
 - `CobraDroid <https://thecobraden.com/projects/cobradroid/>`_ - A custom build of the Android operating system geared specifically for application security analysts and for individuals dealing with mobile malware.
 - `Drozer <http://mwr.to/drozer>`_ - The Leading Security Assessment Framework for Android.
 - `Idb <http://www.idbtool.com>`_ - A tool to simplify some common tasks for iOS pentesting and research.
@@ -817,6 +825,7 @@ Post Exploitation
 - `GTFONow <https://github.com/Frissi0n/GTFONow>`_ - Automatic privilege escalation for misconfigured capabilities, sudo and suid binaries.
 - `GetVulnerableGPO <https://github.com/gpoguy/GetVulnerableGPO.git>`_ - PowerShell script to find 'vulnerable' security-related GPOs that should be hardended.
 - `Ghost In The Logs <https://github.com/bats3c/ghost-in-the-logs/>`_ - Evade sysmon and windows event logging.
+- `Havoc Framework <https://github.com/HavocFramework/Havoc>`_ - A modern and malleable post-exploitation command and control framework.
 - `HoneyBadger <https://github.com/trustedsec/HoneyBadger>`_ - A collection of Metasploit modules with a plugin to help automate Post-Exploitation actions on target systems using the Metasploit Framework.
 - `HoneypotBuster <https://github.com/JavelinNetworks/HoneypotBuster>`_ - Microsoft PowerShell module designed for red teams that can be used to find honeypots and honeytokens in the network or at the host.
 - `IAMhounddog <https://github.com/VirtueSecurity/IAMhounddog>`_ - A tool to help pentesters quickly identify privileged principals and second-order privilege escalation opportunities in unfamiliar AWS accounts.
@@ -847,6 +856,7 @@ Post Exploitation
 - `SafetyKatz <https://github.com/GhostPack/SafetyKatz>`_ - SafetyKatz is a combination of slightly modified version of @gentilkiwi's Mimikatz project and @subTee's .NET PE Load.
 - `Sam-the-admin <https://github.com/WazeHell/sam-the-admin>`_ - Exploiting CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard domain user.
 - `Shad0w <https://github.com/bats3c/shad0w>`_ - A post exploitation framework designed to operate covertly on heavily monitored environments.
+- `SharpHound <https://github.com/SpecterOps/SharpHound>`_ - C# Data Collector for BloodHound
 - `SocksOverRDP <https://github.com/nccgroup/SocksOverRDP>`_ - Socks5/4/4a Proxy support for Remote Desktop Protocol / Terminal Services.
 - `SprayWMI <https://github.com/trustedsec/spraywmi>`_ - An easy way to get mass shells on systems that support WMI. Much more effective than PSEXEC as it does not leave remnants on a system.
 - `Static-binaries <https://github.com/andrew-d/static-binaries>`_ - Various *nix tools built as statically-linked binaries.
@@ -1199,6 +1209,7 @@ Phishing
 Privacy
 -------
 
+- `AirGuard <https://github.com/seemoo-lab/AirGuard>`_ - Protect yourself from being tracked by AirTags and Find My accessories
 - `Git-crypt <https://github.com/AGWA/git-crypt>`_ - Transparent file encryption in git.
 - `GoSecure <https://iadgov.github.io/goSecure/>`_ - An easy to use and portable Virtual Private Network (VPN) system built with Linux and a Raspberry Pi.
 - `I2P <https://geti2p.net>`_ - The Invisible Internet Project.

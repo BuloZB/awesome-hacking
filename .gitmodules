@@ -2662,3 +2662,24 @@
 [submodule "Code Auditing/Static Analysis/sbom-tools"]
 	path = Code Auditing/Static Analysis/sbom-tools
 	url = https://github.com/sbom-tool/sbom-tools.git
+[submodule "Security/Privacy/AirGuard"]
+	path = Security/Privacy/AirGuard
+	url = https://github.com/seemoo-lab/AirGuard.git
+[submodule "Penetration Testing/Mobile/binder-trace"]
+	path = Penetration Testing/Mobile/binder-trace
+	url = https://github.com/foundryzero/binder-trace.git
+[submodule "Penetration Testing/Post Exploitation/Havoc"]
+	path = Penetration Testing/Post Exploitation/Havoc
+	url = https://github.com/HavocFramework/Havoc.git
+[submodule "Forensics/Memory Forensics/mquire"]
+	path = Forensics/Memory Forensics/mquire
+	url = https://github.com/trailofbits/mquire.git
+[submodule "Penetration Testing/Exploits/CVE-2022-2588"]
+	path = Penetration Testing/Exploits/CVE-2022-2588
+	url = https://github.com/Markakd/CVE-2022-2588.git
+[submodule "Penetration Testing/Exploiting/bowcaster"]
+	path = Penetration Testing/Exploiting/bowcaster
+	url = https://github.com/zcutlip/bowcaster.git
+[submodule "Penetration Testing/Post Exploitation/SharpHound"]
+	path = Penetration Testing/Post Exploitation/SharpHound
+	url = https://github.com/SpecterOps/SharpHound.git
