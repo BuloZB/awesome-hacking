@@ -395,6 +395,7 @@ Source Code
 - `BlackHole <https://github.com/hussein-aitlahcen/BlackHole>`_ - C# RAT (Remote Administration Tool).
 - `Carberp <https://github.com/hzeroo/Carberp>`_ - Carberp leaked source code.
 - `Coldfire <https://github.com/redcode-labs/Coldfire>`_ - Golang malware development library.
+- `Endurance-Wiper <https://github.com/IntelBroker/Endurance-Wiper>`_ - A small wiper malware written in C# using the .NET framework.
 - `Fancybear <https://github.com/rickey-g/fancybear>`_ - Fancy Bear Source Code.
 - `LOLBAS <https://github.com/LOLBAS-Project/LOLBAS>`_ - Living Off The Land Binaries And Scripts - (LOLBins and LOLScripts).
 - `Maldev <https://github.com/D3Ext/maldev>`_ - Aims to help malware developers, red teamers and anyone who is interested in cybersecurity. It uses native Golang code and some other useful packages like Hooka which I created to perform complex low-level red teaming stuff.
@@ -619,6 +620,7 @@ Exploits
 - `Proxyshell-poc <https://github.com/dmaasland/proxyshell-poc>`_ - Proxyshell POC
 - `Qemu-vm-escape <https://github.com/Kira-cxy/qemu-vm-escape>`_ - This is an exploit for CVE-2019-6778, a heap buffer overflow in slirp:tcp_emu().
 - `Ruby-advisory-db <https://github.com/rubysec/ruby-advisory-db>`_ - A database of vulnerable Ruby Gems.
+- `SignatureGate <https://github.com/florylsk/SignatureGate>`_ - Weaponized version of HellsGate, bypassing AV/EDR/EPPs by abusing opt-in-fix CVE-2013-3900.
 - `The Exploit Database <https://github.com/offensive-security/exploit-database>`_ - The official Exploit Database repository.
 - `Tpwn <https://github.com/kpwn/tpwn>`_ - Xnu local privilege escalation via cve-2015-???? & cve-2015-???? for 10.10.5, 0day at the time
 - `Windows-kernel-exploits <https://github.com/SecWiki/windows-kernel-exploits>`_ - List of windows kernel exploits.
